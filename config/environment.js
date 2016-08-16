@@ -7,6 +7,12 @@ module.exports = function(environment) {
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
+      firebase: {
+        apiKey: "AIzaSyCkhEYCbVWbi8FL_Rx1w8mKhE6e1oSfuqU",
+        authDomain: "super-rentals-b41e9.firebaseapp.com",
+        databaseURL: "https://super-rentals-b41e9.firebaseio.com",
+        storageBucket: "super-rentals-b41e9.appspot.com",
+      },
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
